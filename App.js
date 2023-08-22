@@ -5,14 +5,16 @@ const rating= document.getElementById("rate");
 const rates = document.querySelectorAll(".number")
 
 
-submitButton.addEventListener("click", () => {
-    thanksBox.classList.remove("hidden");
-    mainBox.style.display = "none";
-})
+
 
 rates.forEach(rate =>{
     rate.addEventListener("click" ,() => {
         rating.innerHTML = rate.innerHTML;
+        submitButton.addEventListener("click", () => {
+            thanksBox.classList.remove("hidden");
+            mainBox.style.display = "none";
+        })
     })
+
 })
 
