@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel='stylesheet' href='index.css'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Noto+Sans+JP:wght@300;400;500;700&family=Outfit:wght@300;500;600;700&family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+
+</head>
+<body>
+
+<div class="main-box">
+  <div class="box-container">
+  <span class="img">
+    <img src="images/icon-star.svg">
+  </span>
+  <div class="text">
+  <h3><b>How did we do?</b></h3>
+  <p>Please let us know how we did with your support request. All feedback is appreciated
+  us improve our offering!</p>
+  </div>
+  <div class="numbers">
+    <button id="1" class="number">1</button>
+    <button id="2" class="number">2</button>
+    <button id="3" class="number">3</button>
+    <button id="4" class="number">4</button>
+    <button id="5" class="number">5</button>
+  </div>
+  <div class="button" id="submit"><b>SUBMIT</b></div>
+  </div>
+</div>
+<div class="thanks-box hidden">
+  <div class="thanks-container">
+  <img src="images/illustration-thank-you.svg" alt="thanks">
+    <p>You selected <span id="rate"> </span> out 5</p>
+
+  <h2>Thank you!</h2>
+
+  <p>We appreciate you taking the time to give
+  a rating. If you ever need more support, don't hesitate
+  to get in touch!</p>
+  </div>
+</div>
+
+
+
+
+<script src='App.js'></script>
+</body>
+</html>

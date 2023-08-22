@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Overpass";
+}
+
+
+body {
+    height: 100vh;
+    display: flex;
+    background-color: hsl(216, 12%, 8%);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 350px;
+    border-radius: 10px;
+    background-color: hsl(213, 19%, 18%);
+}
+
+.thanks-box {
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 10px;
+    width: 350px;
+
+
+}
+
+.box-container, .thanks-container {
+    padding: 2rem;
+
+}
+
+.thanks-container {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+
+}
+
+.main-box .text {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.text h3 {
+    color: white;
+    font-size: 30px;
+}
+
+.text p {
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+}
+
+.main-box .img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    background-color: #2d3642;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+
+}
+
+.numbers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+
+}
+
+.number {
+    border: none;
+    color: hsl(217, 12%, 63%);
+    width: 50px;
+    height: 50px;
+    background-color: #2d3642;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.number:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.number:focus {
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+
+.button {
+    background-color: hsl(25, 97%, 53%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    color: white;
+    height: 25px;
+    border-radius: 20px;
+}
+
+.button:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+.thanks-box img {
+    align-self: center;
+    margin-bottom: 1.5rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.thanks-container p:first-of-type {
+    background-color: #2d3642;
+    width: 150px;
+    align-self: center;
+    font-size: 14px;
+    color: #C5763A;
+    padding: 5px;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+}
+
+.thanks-container h2 {
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.thanks-container p:nth-of-type(2) {
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+
+
+}
